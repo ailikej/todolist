@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import { Component } from 'react';
+import { Body, Body2 } from "./components/Body"
+import Header from './components/Header';
+import MyForm from './components/MyForm';
+import FetchRandomUser from './components/FetchRandomUser';
+import Counter from './components/Counter';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      {/* <MyForm /> */}
+      {/* <FetchRandomUser /> */}
+      {/* < Counter /> */}
+      <TodoList />
     </div>
   );
 }
