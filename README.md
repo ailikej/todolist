@@ -1,3 +1,11 @@
+deployed to: <br />
+http://faithful-friends.surge.sh/<br />
+https://amazing-perlman-a0d9bf.netlify.app/<br />
+
+
+For Netlify, it will auto rebuild and deploy for any update.<br />
+For Surge, go to terminal and run surge to reupload it.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
